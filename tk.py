@@ -160,7 +160,7 @@ class numNN(object):
 
         return root
 
-    def _init_(self, modelName='20160818_MNIST.model'):
+    def _init_(self, modelName='MNIST.model'):
         self.modelName = modelName
         self.root = self.windows()
 
